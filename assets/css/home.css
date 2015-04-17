@@ -125,6 +125,11 @@ ul.nostyle i {
   -webkit-animation-name: scaleIn;
   animation-name: scaleIn;
 }
+
+.spk-span {
+    width: 12.5%;
+}
+
 @-webkit-keyframes scaleIn {
   0% {
     opacity: 0;
@@ -960,7 +965,7 @@ ul.nostyle i {
 	font-family: robotolight; 
 	font-size: 15px; 
 	text-align: justify; 
-	background: transparent;"
+	background: transparent;
 }
 
 .align-left

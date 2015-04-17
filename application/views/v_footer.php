@@ -7,17 +7,22 @@
 
         <div class="row text-center">
             <?php
-            $collection = ['tentang', 'latarbelakang', 'struktur', 'visimisi', 'proyek',
+            $collection = ['home','tentang', 'latarbelakang', 'struktur', 'visimisi', 'proyek',
                 'kelebihan', 'hubungi'];
             $temp = $this->uri->segment(1);
             $content = "";
             foreach ($collection as $value) {
-                if ($value != $temp) {
+                if (true) {
                     $content .= '<a href="' . $value . '">'
-                            . '<div class="col-md-2 col-lg-2 col-xs-6">
+                            . '<div class="col-md-1 col-lg-1 col-xs-3 spk-span">
                                 <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
                                     <div class="icon-circle">';
                     switch ($value) {
+                        case 'home':
+                            $number = 0;
+                            $icon = "fa fa-home fa-2x";
+                            $detail = "Halaman Awal";
+                            break;
                         case 'tentang':
                             $number = 1;
                             $icon = "fa fa-coffee fa-2x";
