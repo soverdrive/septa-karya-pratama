@@ -56,7 +56,7 @@ hr {
   margin-bottom: 50px;
 }
 .section-header .section-title {
-  font-size: 44px;
+  font-size: 30px;
   color: #272727;
   text-transform: uppercase;
   position: relative;
@@ -125,6 +125,13 @@ ul.nostyle i {
   -webkit-animation-name: scaleIn;
   animation-name: scaleIn;
 }
+
+@media only screen and (min-width: 768px){ 
+    .spk-span {
+        width: 12.5%;
+    }
+}
+
 @-webkit-keyframes scaleIn {
   0% {
     opacity: 0;
@@ -421,12 +428,18 @@ ul.nostyle i {
 #portfolio .portfolio-item {
   width: 24.9%;
   float: left;
+  /* height: initial; */
   padding: 15px;
+  margin-bottom: 20px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -o-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
+  /* border-bottom-style: solid; */
+  /* border-top-style: solid; */
+  /* border-left-style: solid; */
+  /* border-radius: 10px; */
 }
 #portfolio .portfolio-item .portfolio-item-inner {
   position: relative;
@@ -549,18 +562,19 @@ ul.nostyle i {
 #work-process h2 {
   color: #fff;
 }
-#work-process h3 {
+#work-process h3, h4 {
   color: #fff;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 #work-process .icon-circle {
   display: inline-block;
   width: 80px;
   height: 80px;
-  line-height: 80px;
+  line-height: 90px;
   border: 2px solid #45aed6;
   border-radius: 100px;
   position: relative;
+  /* padding-top: 10px; */
 }
 #work-process .icon-circle > span {
   border-style: solid;
@@ -576,7 +590,7 @@ ul.nostyle i {
   color: #64686d;
 }
 #work-process h3 {
-  margin-bottom: 50px;
+  margin-bottom: 15px;
 }
 #meet-team {
   padding: 100px 0;
@@ -953,7 +967,7 @@ ul.nostyle i {
 	font-family: robotolight; 
 	font-size: 15px; 
 	text-align: justify; 
-	background: transparent;"
+	background: transparent;
 }
 
 .align-left
