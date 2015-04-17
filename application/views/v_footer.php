@@ -1,92 +1,72 @@
 <section id="work-process">
     <div class="container">
         <div class="section-header">
-            <h2 class="section-title text-center wow fadeInDown">Septa Karya Pratama</h2>
+            <h3 class="section-title text-center wow fadeInDown">Septa Karya Pratama</h3>
             <p class="text-center wow fadeInDown">Menjadi Perusahaan yang Inspiratif, Brilliant, dan Berkualitas.</p>
         </div>
 
         <div class="row text-center">
-            <a href="tentang">
-                <div class="col-md-2 col-md-4 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
-                        <div class="icon-circle">
-                            <span>1</span>
-                            <i class="fa fa-coffee fa-2x"></i>
-                        </div>
-                        <h4>Tentang</h4>
-                    </div>
-                </div>
-            </a>
-            <a href="latarbelakang">
-                <div class="col-md-2 col-md-4 col-xs-6">
-
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
-                        <div class="icon-circle">
-                            <span>2</span>
-                            <i class="fa fa-bullhorn fa-2x"></i>
-                        </div>
-                        <h4>Latar Belakang</h4>
-                    </div>
-
-                </div>
-            </a>
-            <a href="struktur">
-                <div class="col-md-2 col-md-4 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="200ms">
-                        <div class="icon-circle">
-                            <span>3</span>
-                            <i class="fa fa-image fa-2x"></i>
-                        </div>
-                        <h4>Struktur Organisasi</h4>
-                    </div>
-                </div>
-            </a>
-            <a href="visimisi">
-                <div class="col-md-2 col-md-4 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="300ms">
-                        <div class="icon-circle">
-                            <span>4</span>
-                            <i class="fa fa-heart fa-2x"></i>
-                        </div>
-                        <h4>Visi Misi</h4>
-                    </div>
-                </div>
-            </a>
-            <a href="proyek">
-                <div class="col-md-2 col-md-4 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="400ms">
-                        <div class="icon-circle">
-                            <span>5</span>
-                            <i class="fa fa-shopping-cart fa-2x"></i>
-                        </div>
-                        <h4>Proyek</h4>
-                    </div>
-                </div>
-            </a>
-            <a href="kelebihan">
-                <div class="col-md-2 col-md-4 col-xs-6">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms">
-                        <div class="icon-circle">
-                            <span>6</span>
-                            <i class="fa fa-space-shuttle fa-2x"></i>
-                        </div>
-                        <h4>Kelebihan Kami</h4>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="row text-center">
-            <a href="hubungi">
-                <div class="col-md-12 col-md-12 col-xs-12">
-                    <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="500ms">
-                        <div class="icon-circle">
-                            <span>7</span>
-                            <i class="fa fa-headphones fa-2x"></i>
-                        </div>
-                        <h4>Hubungi Kami</h4>
-                    </div>
-                </div>
-            </a>
+            <?php
+            $collection = ['tentang', 'latarbelakang', 'struktur', 'visimisi', 'proyek',
+                'kelebihan', 'hubungi'];
+            $temp = $this->uri->segment(1);
+            $content = "";
+            foreach ($collection as $value) {
+                if ($value != $temp) {
+                    $content .= '<a href="' . $value . '">'
+                            . '<div class="col-md-2 col-lg-2 col-xs-6">
+                                <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
+                                    <div class="icon-circle">';
+                    switch ($value) {
+                        case 'tentang':
+                            $number = 1;
+                            $icon = "fa fa-coffee fa-2x";
+                            $detail = "Tentang";
+                            break;
+                        case 'latarbelakang':
+                            $number = 2;
+                            $icon = "fa fa-bullhorn fa-2x";
+                            $detail = "Latar Belakang";
+                            break;
+                        case 'struktur':
+                            $number = 3;
+                            $icon = "fa fa-image fa-2x";
+                            $detail = "Struktur";
+                            break;
+                        case 'visimisi':
+                            $number = 4;
+                            $icon = "fa fa-heart fa-2x";
+                            $detail = "Visi Misi";
+                            break;
+                        case 'proyek':
+                            $number = 5;
+                            $icon = "fa fa-shopping-cart fa-2x";
+                            $detail = "Proyek";
+                            break;
+                        case 'kelebihan':
+                            $number = 6;
+                            $icon = "fa fa-space-shuttle fa-2x";
+                            $detail = "Kelebihan";
+                            break;
+                        case 'hubungi':
+                            $number = 7;
+                            $icon = "fa fa-headphones fa-2x";
+                            $detail = "Hubungi";
+                            break;
+                        default:
+                            break;
+                    }
+                    $content .= '<span>'.$number.'</span>
+                                    <i class="'.$icon.'"></i>
+                                </div>
+                                <h4>'.$detail.'</h4>';
+                    $content .= '</div>'
+                            . '</div>'
+                            . '</a>';
+                }
+            }
+            echo $content;
+            ?>
         </div>
         <div class="row text-center">
             <div class="col-lg-12 center-block text-center">
