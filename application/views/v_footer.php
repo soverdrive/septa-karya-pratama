@@ -14,7 +14,7 @@
             foreach ($collection as $value) {
                 if (true) {
                     $content .= '<a href="' . $value . '">'
-                            . '<div class="col-md-1 col-lg-1 col-xs-3 spk-span">
+                            . '<div class="col-md-1 col-lg-1 col-xs-4 spk-span">
                                 <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="0ms">
                                     <div class="icon-circle">';
                     switch ($value) {

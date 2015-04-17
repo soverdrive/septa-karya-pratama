@@ -126,8 +126,10 @@ ul.nostyle i {
   animation-name: scaleIn;
 }
 
-.spk-span {
-    width: 12.5%;
+@media only screen and (min-width: 768px){ 
+    .spk-span {
+        width: 12.5%;
+    }
 }
 
 @-webkit-keyframes scaleIn {
