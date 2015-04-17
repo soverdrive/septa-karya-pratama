@@ -549,9 +549,9 @@ ul.nostyle i {
 #work-process h2 {
   color: #fff;
 }
-#work-process h3 {
+#work-process h3, h4 {
   color: #fff;
-  margin-bottom: 0;
+  margin-bottom: 20px;
 }
 #work-process .icon-circle {
   display: inline-block;
@@ -561,6 +561,7 @@ ul.nostyle i {
   border: 2px solid #45aed6;
   border-radius: 100px;
   position: relative;
+  /* padding-top: 10px; */
 }
 #work-process .icon-circle > span {
   border-style: solid;
