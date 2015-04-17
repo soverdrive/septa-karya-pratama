@@ -7,8 +7,7 @@
 
         <div class="row text-center">
             <?php
-            $collection = ['home','tentang', 'latarbelakang', 'struktur', 'visimisi', 'proyek',
-                'kelebihan', 'hubungi'];
+            $collection = array ('home','tentang', 'latarbelakang', 'struktur', 'visimisi', 'proyek', 'kelebihan', 'hubungi');
             $temp = $this->uri->segment(1);
             $content = "";
             foreach ($collection as $value) {
