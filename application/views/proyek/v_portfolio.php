@@ -6,9 +6,9 @@
 
         <div class="text-center">
             <ul class="portfolio-filter">
-                <li><a class="active" href="#" data-filter="*">Semua Proyek</a></li>
-                <li><a href="#" data-filter=".booth">Booth</a></li>
-                <li><a href="#" data-filter=".interior">Desain Interior</a></li>
+                <li><a id="skp-all" class="skp-all active" href="#" data-filter="*">Semua Proyek</a></li>
+                <li><a id="skp-booth" class="skp-booth" href="#" data-filter=".booth">Booth</a></li>
+                <li><a id="skp-interior" class="skp-interior" href="#" data-filter=".interior">Desain Interior</a></li>
             </ul><!--/#portfolio-filter-->
         </div>
 
