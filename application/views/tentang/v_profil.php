@@ -1,6 +1,6 @@
 <div class="container-fluid">
     <div class="row">
-        <div class="col-lg-offset-1 col-lg-10 wow fadeInUp">
+        <div id="profil-perusahaan" class="col-lg-offset-1 col-lg-10 wow fadeInUp">
             <div class="page-header">
                 <h1>
                     <span>PROFIL PERUSAHAAN</span>

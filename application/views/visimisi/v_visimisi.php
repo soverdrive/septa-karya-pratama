@@ -7,7 +7,7 @@
 						<span>VISI DAN MISI</span>
 					</h1>
 				</div>
-				<div class="col-lg-1">
+				<div id="skp-visi" class="col-lg-1">
 					<div>
 						<h2>VISI</h2>
 					</div>
@@ -15,7 +15,7 @@
 				<div class="col-lg-11 post_content visi">
 						<blockquote>"Menjadi Perusahaan yang Inspiratif, Brilliant, dan Berkualitas."</blockquote>
 				</div>
-				<div class="col-lg-1">
+				<div id="skp-misi" class="col-lg-1">
 					<div>
 						<h2>MISI</h2>
 					</div>
