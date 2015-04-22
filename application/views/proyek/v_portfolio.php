@@ -8,6 +8,7 @@
             <ul class="portfolio-filter">
                 <li><a class="active" href="#" data-filter="*">Semua Proyek</a></li>
                 <li><a href="#" data-filter=".booth">Booth</a></li>
+				<li><a href="#" data-filter=".arsitektur">Arsitektur</a></li>
                 <li><a href="#" data-filter=".interior">Desain Interior</a></li>
             </ul><!--/#portfolio-filter-->
         </div>
