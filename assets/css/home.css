@@ -15,6 +15,7 @@ body {
   font-weight: 400;
   color: #272727;
   line-height: 29px;
+  width: 100%;
 }
 
 .wow h5{
@@ -580,7 +581,7 @@ ul.nostyle i {
   background-color: #CDB380;
 }
 #work-process {
-  padding: 20px 0 20px;
+  padding: 10px 0 10px;
   background: #20222e url(../images/work-process/bg2.jpg) no-repeat 0 0;
   background-size: cover;
   color: #fff;
