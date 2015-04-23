@@ -8,6 +8,18 @@
 <section id="work-process">
     <div class="container">
         <div class="row text-center">
+            <div class="col-md-2 col-lg-2 col-md-offset-4 col-lg-offset-4">
+                <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                    <i class="fa fa-facebook-square fa-2x"></i> <h5>Facebook</h5>
+                </div>
+            </div>
+            <div class="col-md-2 col-lg-2 ">
+                <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
+                    <i class="fa fa-youtube-play fa-2x"></i> <h5>Youtube</h5>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
             <div class="col-lg-12 center-block text-center">
                 <br />
                 Septa Karya Pratama &copy; 2015

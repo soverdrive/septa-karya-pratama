@@ -22,7 +22,7 @@
                     <li id="visimisi"><a href="<?php echo site_url('visimisi'); ?>">VISI MISI</a></li>   
                     <li id="proyek"><a href="<?php echo site_url('proyek'); ?>">PROYEK</a></li>   
                     <li id="kelebihan"><a href="<?php echo site_url('kelebihan'); ?>">KELEBIHAN KAMI</a></li>       
-                    <li id="hubungi"><a href="<?php echo site_url('hubungi'); ?>">HUBUNGI KAMI</a></li>  				
+                    <li id="hubungi"><a href="<?php echo site_url('hubungi'); ?>">HUBUNGI KAMI</a></li>
                 </ul> 
             </div>
         </div><!--/.container-->

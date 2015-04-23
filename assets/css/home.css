@@ -193,17 +193,16 @@ ul.nostyle i {
   #main-menu.navbar-default .navbar-nav > li > a {
     padding-top: 40px;
     padding-bottom: 40px;
-    color : #0ff;
+    color: #fff;
   }
   #main-menu.navbar-default .navbar-nav > li.active > a,
   #main-menu.navbar-default .navbar-nav > li.open > a,
   #main-menu.navbar-default .navbar-nav > li:hover > a {
     background: transparent;
     padding-top: 37px;
-    border-top: 3px solid #45aed6;
-    color : white;
-    font-weight: #0ff;
-  }
+    border-bottom: 3px solid #00FFFF;
+    color: #00FFFF;
+}
   #main-menu.navbar-default .dropdown-menu {
     padding: 0 20px;
     min-width: 220px;
@@ -1000,6 +999,7 @@ ul.nostyle i {
 .item_list
 {
 	padding-bottom: 10px;
+	font-size: large;
 }
 
 td
