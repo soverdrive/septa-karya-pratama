@@ -8,14 +8,16 @@
 <section id="work-process">
     <div class="container">
         <div class="row text-center">
-            <div class="col-md-2 col-lg-2 col-md-offset-4 col-lg-offset-4">
+            <div class="col-md-1 col-lg-1 col-md-offset-5 col-lg-offset-5">
                 <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
-                    <i class="fa fa-facebook-square fa-2x"></i> <h5>Facebook</h5>
+                    <a href="http://facebook.com" target="_blank"><i class="fa fa-facebook-square fa-2x"></i> <h5>Facebook</h5>
+                    </a>
                 </div>
             </div>
-            <div class="col-md-2 col-lg-2 ">
+            <div class="col-md-1 col-lg-1 ">
                 <div class="wow fadeInUp" data-wow-duration="400ms" data-wow-delay="100ms">
-                    <i class="fa fa-youtube-play fa-2x"></i> <h5>Youtube</h5>
+                    <a href="http://instagram.com" target="_blank"><i class="fa fa-instagram fa-2x"></i> <h5>Instagram</h5>
+                    </a>
                 </div>
             </div>
         </div>
