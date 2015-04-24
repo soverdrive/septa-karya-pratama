@@ -3,13 +3,13 @@
         <div class="col-lg-offset-1 col-lg-10 wow fadeInUp">
 			<div class="row">
 				<div class="page-header">
-					<h1>
+					<h2>
 						<span>VISI DAN MISI</span>
-					</h1>
+					</h2>
 				</div>
 				<div id="skp-visi" class="col-lg-1">
 					<div>
-						<h2>VISI</h2>
+						<h3>VISI</h3>
 					</div>
 				</div>
 				<div class="col-lg-11 post_content visi">
@@ -17,7 +17,7 @@
 				</div>
 				<div id="skp-misi" class="col-lg-1">
 					<div>
-						<h2>MISI</h2>
+						<h3>MISI</h3>
 					</div>
 				</div>
 				<div class="col-lg-11 post_content">
