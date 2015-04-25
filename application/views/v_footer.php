@@ -22,6 +22,8 @@ if (isset($_GET['to'])) {
         </div>
     </div>
 </section><!--/#work-process-->
+
+        </div>
 </body>
 <script src="<?php echo base_url('assets/js/owl.carousel.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/mousescroll.js'); ?>"></script>
