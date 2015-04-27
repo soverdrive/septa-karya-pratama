@@ -21,8 +21,8 @@
         <link href="<?php echo base_url('assets/css/home.css'); ?>" rel="stylesheet">
         <link href="<?php echo base_url('assets/css/responsive.css'); ?>" rel="stylesheet">
         <link href="<?php echo base_url('assets/css/shrink.css'); ?>" rel="stylesheet">
-		<link href="<?php echo base_url('assets/lightbox/css/lightbox.css'); ?>" rel="stylesheet" />     
-		
+        <link href="<?php echo base_url('assets/lightbox/css/lightbox.css'); ?>" rel="stylesheet" />     
+
         <!--Script-->
         <script src="<?php echo base_url('assets/jquery/jquery-1.11.2.min.js'); ?>"></script>
         <script src="<?php echo base_url('assets/js/bootstrap.min.js'); ?>"></script>
@@ -35,16 +35,17 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
           <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-		<style>
-			.thumbnail-photo 
-			{
-				width: 261px;
-				height: 200px;
-				background-image: url("http://i.stack.imgur.com/2OrtT.jpg");
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-position: 50% 50%;
-			}​
-		</style>
+        <style>
+            .thumbnail-photo 
+            {
+                width: 261px;
+                height: 200px;
+                background-image: url("http://i.stack.imgur.com/2OrtT.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: 50% 50%;
+            }​
+        </style>
     </head>
     <body>
+        <div id="background-transparent">
