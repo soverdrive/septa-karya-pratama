@@ -10,7 +10,7 @@
                 </button>
                 
                 <a class="navbar-brand" href="<?php echo site_url(); ?>">
-                    <img src="<?php echo base_url('assets/images/logo.png'); ?>" alt="SKP">
+                    <img class="brand" src="<?php echo base_url('assets/images/logofull.jpg'); ?>" alt="SKP">
                 </a>
             </div>
 
@@ -34,8 +34,10 @@
         $(window).scroll(function () {
             if ($(document).scrollTop() > 50) {
                 $('nav').addClass('shrink');
+				$('.brand').attr('src','<?php echo base_url('assets/images/logo.png'); ?>');
             } else {
                 $('nav').removeClass('shrink');
+				$('.brand').attr('src','<?php echo base_url('assets/images/logofull.jpg'); ?>');
             }
         });
 
